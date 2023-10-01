@@ -1,0 +1,52 @@
+.loginPage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginBackground {
+    background-color: #F4EEEF;
+}   
+
+.tableScreen {
+    padding: 20px;
+    transform: translate(-0%, 2%);
+}
+
+.paginationClass {
+   padding: 5px;
+   .ant-pagination {
+    .ant-pagination-item-active {
+        background-color: #4F45F8;
+        a {
+            color: white !important;
+        }
+    }
+   }
+}
+
+.archiveButton {
+    padding: 3px;
+}
+
+.ant-btn-primary {
+    background-color: #4F45F8 !important;
+}
+
+.ant-row {
+    display: flex;
+    justify-content: center;
+}
+
+.notification-success {
+    background-color: #D8BFD8;
+}
+
+.notification-error {
+    background-color: red;
+}
